@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Inria+Serif:wght@400;700&display=swap");
+header {
+  background-color: #acb69c;
+  padding: 1% 0%;
+}
+header a {
+  color: #f6f8f2;
+  text-decoration: none;
+  padding: 5px;
+}
+
+hr {
+  color: #192d21;
+  margin: 8em;
+}
+
+footer {
+  background-color: #acb69c;
+  color: #f6f8f2;
+}
+
+body {
+  margin: 0%;
+}
+
+header nav {
+  font-family: "Inria Serif", serif;
+}
+
+body {
+  font-family: "Inria Serif", serif;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#section1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+#section1 article {
+  text-align: center;
+}
+
+#realizacoes article img {
+  padding: 2em;
+  align-items: center;
+}
+
+#sobre p {
+  text-align: center;
+}
+
+section {
+  margin: 8em;
+}
+
+#section1 {
+  text-align: center;
+}
+
+footer {
+  height: 6em;
+  text-align: center;
+  padding: 1em;
+}
+
+#img {
+  display: flex;
+  flex-direction: row;
+}
+
+a {
+  padding: 0.5rem;
+}
+
+.imgl:hover {
+  transform: scale(1.2);
+  transition: all ease-in-out 0.3s;
+}
+
+.imgl {
+  transition: all ease-in-out 0.3s;
+}
+
+.imgl:hover {
+  transform: scale(1.2);
+  transition: all ease-in-out 0.3s;
+}
+
+.imgl {
+  transition: all ease-in-out 0.3s;
+}
+
+@media (max-width: 700px) {
+  header img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: center;
+  }
+  #habilidades article {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  #habilidades article img {
+    width: 35%;
+  }
+  #realizacoes article {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  #realizacoes article img {
+    width: 40%;
+    padding: 0.5rem;
+  }
+  hr {
+    margin: 3em;
+  }
+  #sobre {
+    margin: 4em;
+  }
+  #formacao {
+    margin: 4em;
+  }
+  h1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,116 @@
+@import "base/colors.scss"; 
+@import "base/reset.scss";
+@import "base/tipografia.scss";
+@import "layout/header.scss";
+@import "layout/footer.scss";
+@import "pages/lar.scss";
+
+
+section{
+    margin: 8em;
+
+}
+#section1{
+    text-align: center;
+}
+
+footer{
+    height:6em;
+    text-align: center;
+    padding: 1em;
+}
+
+#img{
+    display: flex;
+    flex-direction: row;
+    
+}
+a{
+padding: 0.5rem;
+}
+.imgl:hover{
+
+    transform:scale(1.2);
+    transition: all ease-in-out 0.3s;
+    
+
+}
+.imgl{
+
+    transition: all ease-in-out 0.3s;
+    
+
+}
+.imgl:hover{
+
+    transform:scale(1.2);
+    transition: all ease-in-out 0.3s;
+    
+
+}
+.imgl{
+
+    transition: all ease-in-out 0.3s;
+    
+
+}
+
+
+@media (max-width: 700px){
+   
+    header{
+        img{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: center;
+        }
+
+    }
+
+    #habilidades{
+      article{
+         display: flex;
+         flex-direction: row; 
+         align-items: center;
+         justify-content: center;
+        img{
+            width: 35%;
+        }
+      }
+        
+    }
+
+    #realizacoes{
+        article{
+            display: flex;
+            flex-direction: row; 
+            align-items: center;
+            justify-content: center;
+           img{
+               width: 40%;
+               padding: 0.5rem;
+           }
+         }
+
+    }
+    hr{
+        margin:3em;
+    }
+
+    #sobre{
+
+        margin:4em;
+    }
+
+    #formacao{
+       
+        margin: 4em;
+    }
+ h1{
+            display: flex;
+            text-align: center;
+            justify-content: center;
+        }
+
+}

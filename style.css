@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Inria+Serif:wght@400;700&display=swap");
+
+
+header {
+  background-color: #543c23;
+  padding: 1% 0%;
+  color: white;
+}
+
+
+hr {
+  color: #192d21;
+  margin: 3em;
+}
+
+footer {
+  background-color: #543c23;
+  color: #f6f8f2;
+}
+
+body {
+  margin: 0%;
+}
+
+header nav {
+  font-family: "Inria Serif", serif;
+}
+
+body {
+  font-family: "Inria Serif", serif;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#infos{
+  font-size: 20px;
+}
+#section1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+#section1 article {
+  text-align: center;
+}
+
+#realizacoes article img {
+  padding: 2em;
+  align-items: center;
+}
+
+#sobre p {
+  font-size: 1.2em;
+}
+
+#habilidades p{
+  font-size: 1.2em;
+}
+
+#formacao p {
+  font-size: 1.2em;
+}
+
+section {
+  margin: 3em;
+}
+
+#section1 img {
+  height: 3em;
+  
+}
+
+#section1{
+  text-align: center;
+}
+
+footer {
+  height: 6em;
+  text-align: center;
+  padding: 1em;
+}
+
+#img {
+  height: 1%;
+  display: flex;
+  flex-direction: row;
+}
+
+a {
+  padding: 0.5rem;
+}
+
+.imgl:hover {
+  transform: scale(1.2);
+  transition: all ease-in-out 0.3s;
+}
+
+.imgl {
+  transition: all ease-in-out 0.3s;
+}
+
+.imgl:hover {
+  transform: scale(1.2);
+  transition: all ease-in-out 0.3s;
+}
+
+.imgl {
+  transition: all ease-in-out 0.3s;
+}
+
+@media (max-width: 700px) {
+  header img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: center;
+  }
+  #habilidades article {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #realizacoes article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  #realizações{
+    font-size: 5em;
+  }
+  
+  hr {
+    margin: 3em;
+  }
+  #sobre {
+    margin: 4em;
+  }
+  #formacao {
+    margin: 4em;
+  }
+  h1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

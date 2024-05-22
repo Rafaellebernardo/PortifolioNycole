@@ -1,0 +1,18 @@
+#section1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+#section1 article {
+  text-align: center;
+}
+
+#realizacoes article img {
+  padding: 2em;
+  align-items: center;
+}
+
+#sobre p {
+  text-align: center;
+}/*# sourceMappingURL=lar.css.map */

@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Inria+Serif:wght@400;700&display=swap");
+header nav {
+  font-family: "Inria Serif", serif;
+}
+
+body {
+  font-family: "Inria Serif", serif;
+}
+
+h1 {
+  font-weight: 700;
+}/*# sourceMappingURL=tipografia.css.map */
